@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         VideoView videoView = findViewById(R.id.videoView);
         MediaController mediaControllerALI = new MediaController(this);
         videoView.setMediaController(mediaControllerALI);
+        //salam
 
 
         Uri uriAparat = Uri.parse("https://as7.cdn.asset.aparat.com/aparat-video/7e08f495e590203ec9b8225b6d27facd24550096-1080p.mp4");
